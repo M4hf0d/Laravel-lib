@@ -1,0 +1,61 @@
+/* CSS */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0px 0px 10px #ccc;
+}
+
+.login-container {
+    float: right;
+    width: 25%;
+}
+
+.login-container form .form-group {
+    margin-bottom: 10px;
+}
+
+.login-container form .form-group label {
+    display: block;
+}
+
+.login-container form .form-group input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.login-container form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header a {
+    color: #fff;
+    margin: 0 10px;
+}
